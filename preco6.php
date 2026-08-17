@@ -21,6 +21,8 @@
             $preco += 10;
         }
 
+        $qtd = $_GET['qtd'];
+
         $desconto = $qtd * 3 * $preco / 100;
             
         $total = $preco * $qtd - $desconto * $qtd;
